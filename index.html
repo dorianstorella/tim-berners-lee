@@ -1,17 +1,62 @@
 <!DOCTYPE html>
-<html lang=""> <!-- !!! EN/FR? !!!  -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href=""> <!-- Fonts go BEFORE stylesheet -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <figure>
+            <img src="images/tim-berners-lee" alt="Tim Berners-Lee">
+        </figure>
+        <h1>Tim Berners-Lee</h1>
+
+        <h2>Inventor of HTML</h2>
+        <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computer services section of the CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <strong>enormous scale.</strong></p>
+        <p><a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a></p>
+    </header>
+
+    <nav id="social-media">
+        <ul>
+            <li><i class="fab fa-facebook-f"><a href="">Facebook</a></i></li>
+            <li><i class="fab fa-linkedin-in"><a href="">LinkedIn</a></i></li>
+            <li><i class="fab fa-twitter"></i><a href="">Twitter</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>His favorite movies</h2>
+        <div class="grid-container">
+            <figure class="visual">
+                <img src="images/2001" alt="2001: a space odyssey">
+            </figure>
+            <h3 class="title">2001: A Space Odyssey</h3>
+            <p class="synopsis">Humanity finds a mysterious, obviously artificial object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+        </div>
+        <div class="grid-container">
+            <figure class="visual">
+                <img src="images/mr-hulot" alt="Les vacances de Mr Hulot">
+            </figure>
+            <h3 class="title">Monsieur Hulot</h3>
+            <p class="synopsis">Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+        </div>
+        <div class="grid-container">  
+            <figure class="visual">
+                <img src="images/alien" alt="Alien">
+            </figure>
+            <h3 class="title">Alien</h3>
+            <p class="synopsis">The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by <a href="">Valentin Massart</a> for <a href="">BeCode</a></p>
+    </footer>
 </body>
 </html>
